@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="thongtin_nguoilienhe" label="THÔNG TIN NGƯỜI GỬI">
+		<field
+			name="id"
+			type="text"
+			label="ID"
+			size="5"
+			class="inputbox"
+			default=""
+			disabled="true"
+		/>
+		<field
+			name="fullname"
+			type="text"
+			label="Người gửi"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="phone"
+			type="text"
+			label="Số điện thoại"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="email"
+			type="text"
+			label="Email"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="date_time"
+			type="text"
+			label="Ngày gửi"
+			class="inputbox"
+			disabled="true"
+		/>
+	</fieldset>
+	<fieldset name="noidung" label="NỘI DUNG LIÊN HỆ">
+		<field
+			name="title"
+			type="textarea"
+			label="Tiêu đề"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="message"
+			type="textarea"
+			label="Nội dung"
+			class="inputbox"
+			disabled="true"
+		/>
+	</fieldset>
+</form>

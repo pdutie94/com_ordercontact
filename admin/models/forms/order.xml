@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="thongtin_khachhang" label="THÔNG TIN KHÁCH HÀNG">
+		<field
+			name="id"
+			type="text"
+			label="ID"
+			size="5"
+			class="inputbox"
+			default=""
+			disabled="true"
+		/>
+		<field
+			name="order_number"
+			type="text"
+			label="Mã đơn hàng"
+			size="5"
+			class="inputbox"
+			default=""
+			disabled="true"
+		/>
+		<field
+			name="fullname"
+			type="text"
+			label="Người đặt hàng"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="phone"
+			type="text"
+			label="Số điện thoại"
+			class="inputbox"
+			disabled="true"
+		/>
+                <field
+			name="address"
+			type="text"
+			label="Địa chỉ"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="email"
+			type="text"
+			label="Email"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="date_time"
+			type="text"
+			label="Ngày đặt hàng"
+			class="inputbox"
+			disabled="true"
+		/>
+	</fieldset>
+	<fieldset name="thongtin_sanpham" label="THÔNG TIN SẢN PHẨM">
+		<field
+			name="prod_id"
+			type="text"
+			label="Mã sản phẩm"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="prod_name"
+			type="textarea"
+			label="Tên sản phẩm"
+			class="inputbox"
+			disabled="true"
+		/>
+		<field
+			name="quantity"
+			type="text"
+			label="Số lượng"
+			class="inputbox"
+			disabled="true"
+		/>
+	</fieldset>
+	<fieldset name="tinhtrang_donhang" label="TÌNH TRẠNG ĐƠN HÀNG">
+		<field
+			name="status"
+			type="list"
+			label="Tình trạng"
+			class="inputbox">
+			<option value="0">Đang chờ</option>
+			<option value="1">Đã xác nhận</option>
+			<option value="2">Đã giao hàng</option>
+			<option value="3">Đã hủy</option>
+		</field>
+	</fieldset>
+</form>
